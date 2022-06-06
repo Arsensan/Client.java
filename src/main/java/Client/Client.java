@@ -3,6 +3,7 @@ package Client;
 
 import com.sun.jdi.Bootstrap;
 import java.nio.channels.SocketChannel;
+// Библиотеки netty не подружаются!
 
 public class Client {
     public static void main(String[] args) throws Exception {

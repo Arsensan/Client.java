@@ -1,6 +1,6 @@
 package Client;
 
-
+// Библиотеки netty не подружаются!
     public class ClientHandler extends ChannelInboundHandlerAdapter {
 
 

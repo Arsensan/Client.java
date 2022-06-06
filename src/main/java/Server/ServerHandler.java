@@ -1,5 +1,5 @@
 package Server;
-
+// Библиотеки netty не подружаются!
 
 public class ServerHandler  extends ChannelInboundHandlerAdapter {
     @Override
