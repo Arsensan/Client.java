@@ -1,7 +1,7 @@
 package Server;
 
 import java.nio.channels.SocketChannel;
-
+// Библиотеки netty не подружаются!
 public class CloudServer {
 
     public void run() throws Exception {

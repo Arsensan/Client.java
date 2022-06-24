@@ -2,7 +2,7 @@ package GUI;
 
 import java.awt.*;
 import javax.swing.*;
-
+// Буду признателен, если подскажите ресурс, как сязать графический интерфейс Swing с Netty
 public class GUI extends JFrame {
     JFrame f1;
 
