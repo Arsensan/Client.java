@@ -1,15 +1,27 @@
-package GUI;
+package Storage;
 
 import java.awt.*;
+import java.io.IOException;
 import javax.swing.*;
-// Буду признателен, если подскажите ресурс, как сязать графический интерфейс Swing с Netty
+
+// 9) Создаю графический интерфейс
 public class GUI extends JFrame {
     JFrame f1;
+   static JTextArea clientWindow;
+    static JTextArea serverWindow;
 
-
-    public GUI() {
+    public GUI() throws IOException {
         f1 = new JFrame("Storage 1.0");
-        JTextArea clientWindow = new JTextArea();
+        clientWindow = new JTextArea();
+        clientWindow.setText(null);
+        clientWindow.setText(("ClientFolder" + (Client.clientFileList(Client.clientPath))));
+        clientWindow.setEditable(false);
+        clientWindow.setLineWrap(true);
+        serverWindow = new JTextArea();
+        serverWindow.setText(null);
+        serverWindow.setEditable(false);
+        serverWindow.setLineWrap(true);
+
         JTextArea serverWindow = new JTextArea();
         JTextField t1 = new JTextField();
         JPanel p1 = new JPanel();
@@ -62,6 +74,13 @@ public class GUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        new GUI();
+        SwingUtilities.invokeLater(() -> {
+            try {
+                new GUI();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
     }
 }
+
