@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ffca7e-f358-4602-a44c-b729a995d74e" name="Changes" comment="Alpha 0.2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Questions.txt" afterDir="false" />
+    <list default="true" id="a9ffca7e-f358-4602-a44c-b729a995d74e" name="Changes" comment="Alpha 0.22">
+      <change afterPath="$PROJECT_DIR$/src/ClientDirectory/Garbage/Trash/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ServerDirectory/Server.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Storage/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Storage/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Storage/CloudServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Storage/FileToSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Storage/ServerFileList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Storage/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client/ClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Storage/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server/CloudServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server/ServerHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -55,22 +71,60 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Arsen/Desktop/JavaProjects/Netty_Practice_06_06_2022/src/main/java/Client/Client.java&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="GUI.GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arsen\Desktop\JavaProjects\Netty_Practice_06_06_2022\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="Client" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Storage.Client">
+    <configuration name="CloudServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Storage.CloudServer" />
+      <module name="Netty_Practice_06_06_2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Storage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="GUI.GUI" />
+      <option name="MAIN_CLASS_NAME" value="Storage.GUI" />
       <module name="Netty_Practice_06_06_2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Storage.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Storage.Client" />
+      <module name="Netty_Practice_06_06_2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Storage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GUI.GUI" />
+        <item itemvalue="Application.Storage.Client" />
+        <item itemvalue="Application.Storage.CloudServer" />
+        <item itemvalue="Application.GUI" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654548124249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Alpha 0.2">
+      <created>1654549634114</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654549634114</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -14,19 +14,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.ditchoom</groupId>
-            <artifactId>buffer-iosx64</artifactId>
-            <version>1.0.72</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ditchoom</groupId>
-            <artifactId>buffer-tvosx64</artifactId>
-            <version>1.0.72</version>
-        </dependency>
-        <dependency>
-            <groupId>com.ditchoom</groupId>
-            <artifactId>buffer</artifactId>
-            <version>1.0.72</version>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.75.Final</version>
         </dependency>
     </dependencies>
 
